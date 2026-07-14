@@ -60,7 +60,7 @@ with st.container():
     # Đây là đường dẫn web phụ thực tế bạn đã deploy thành công ở bước trước
     st.link_button(
         "Truy cập Trợ lý Đầu tư →", 
-        "https://truongthanhgiang.streamlit.app/", 
+        "https://baocaodautu.streamlit.app/", 
         use_container_width=True
     )
 
