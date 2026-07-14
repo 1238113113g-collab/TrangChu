@@ -57,7 +57,7 @@ with st.container():
     </div>
     """, unsafe_allow_html=True)
     
-    # Bạn hãy thay đường dẫn web phụ thực tế của bạn vào đây
+    # Đây là đường dẫn web phụ thực tế bạn đã deploy thành công ở bước trước
     st.link_button(
         "Truy cập Trợ lý Đầu tư →", 
         "https://truongthanhgiang.streamlit.app/", 
@@ -75,10 +75,10 @@ with st.container():
     </div>
     """, unsafe_allow_html=True)
     
-    # Link này sau này khi bạn tạo web phụ thứ 2 thì dán vào đây
+    # Link này sau này khi bạn tạo web phụ thứ 2 thì dán vào đây, hiện tại tạm để dẫn về trang quản lý của bạn
     st.link_button(
         "Truy cập Trợ lý Ngân hàng →", 
-        "https://share.streamlit.io/", # Link tạm thời
+        "https://share.streamlit.io/", 
         use_container_width=True
     )
 
@@ -88,7 +88,7 @@ st.markdown("---")
 # 4. KHU VỰC LIÊN HỆ & HỖ TRỢ
 # =========================================================================
 st.subheader("📞 Đăng ký nhận tư vấn chuyên sâu")
-st.write("Nếu bạn cần hỗ trợ về các nghiệp vụ Tài chính - Pháp lý - Thuế, vui lòng để lại thông tin:")
+st.write("Nếu bạn cần hỗ trợ thêm về các nghiệp vụ Tài chính - Pháp lý - Thuế, vui lòng để lại thông tin:")
 
 with st.form("contact_form"):
     name = st.text_input("Họ và tên của bạn:")
